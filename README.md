@@ -1,57 +1,23 @@
-# Credit Card Fraud Detection Using Machine Learning
+# Credit-Card-Fraud-Detection
+Fraud Detection model based on anonymized credit card transactions
 
-## Overview
-This project uses Machine Learning techniques to detect fraudulent credit card transactions. The model is trained on the Kaggle Credit Card Fraud Detection Dataset and addresses the problem of highly imbalanced data using undersampling and SMOTE.
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
-## Features
-- Fraud transaction detection
-- Data preprocessing and feature scaling
-- Handling class imbalance using SMOTE
-- Logistic Regression and Decision Tree models
-- Performance evaluation using Precision, Recall, F1 Score, and Accuracy
+<img src="https://github.com/sagnikghoshcr7/images/blob/master/Credit%20Card%20Fraud%20Detection.jpg" width="400" height="250">
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib
-- Seaborn
-- Imbalanced-Learn
+The datasets contains transactions made by credit cards in September 2013 by european cardholders.
+This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
-## Dataset
-Dataset Source:
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-## Model Performance
-Best Model: Decision Tree (Undersampled Data)
 
-- Accuracy: 93.8%
-- Precision: 96.9%
-- Recall: 91.3%
-- F1 Score: 94.0%
+## Getting started
 
-## Project Structure
+1. get the code from the repository
+```
+git clone https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection.git 
+```
+2. [download the dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) that will be used to train a transaction classifier. Unzip it and put the content (creditcard.csv) under main folder (Credit-Card-Fraud-Detection)
 
-├── dataset/
-├── notebooks/
-├── models/
-├── screenshots/
-├── credit_card_fraud_model.pkl
-├── requirements.txt
-└── README.md
+3. install required python packages if previously not installed
 
-## Team Members
-- Ritu Raj
-- Aniket Raut
-- Anmol Prajapati
-- Shreyansh Raj
-
-## Future Improvements
-- Deep Learning Models (LSTM, Autoencoders)
-- Real-Time Fraud Detection API
-- Cloud Deployment
-- Explainable AI using SHAP and LIME
-
-## License
-This project is developed for educational and learning purposes.
+4. Finally run on Jupyter Notebook and enjoy 😉
